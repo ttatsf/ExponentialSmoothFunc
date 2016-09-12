@@ -8,7 +8,7 @@ ExponentialSmoothFunc has 4 simple function objects.
 + "IsINCREASED" : returns whether incoming data is larger than previous data.
 + "IsDECREASED" : returns whether incoming data is less than previous data.
 
-#ExponentialSmoothFunc VS. [SmoothFunc](https://github.com/ttatsf/SmoothFunc) or other  filter library using moving average.
+#ExponentialSmoothFunc VS. [SmoothFunc](https://github.com/ttatsf/SmoothFunc) or other  filter library using simple moving average.
 
 Uses less memory, works lighter, and can change reaction more flexibly.
 
