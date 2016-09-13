@@ -1,3 +1,4 @@
+ExponentialSmoothFunc KEYWORD1
 ExponentialSmooth	KEYWORD1
 IsCHANGED	KEYWORD1
 IsINCREASED	KEYWORD1
