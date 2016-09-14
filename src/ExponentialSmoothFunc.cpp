@@ -5,8 +5,9 @@ ExponentialSmooth::ExponentialSmooth(long reactRate): RATE(reactRate)
 }
 
 long ExponentialSmooth::operator()(long currentValue){
-  const long SMOOTHED_VALUE_MUL_100
-    = RATE * currentValue + (100 - RATE) * previousValueMul100 / 100 + 1 ;
+  const long SMOOTHED_VALUE_MUL_100 = RATE * currentValue
+                                    + (100 - RATE) * previousValueMul100 / 100
+                                    + 1 ;
   previousValueMul100 = SMOOTHED_VALUE_MUL_100;
   return SMOOTHED_VALUE_MUL_100 / 100 ;
 }
